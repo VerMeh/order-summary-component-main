@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -10,28 +14,33 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
   </style>
 </head>
 <body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<div id="mainContainer">
+  <div id="container1"><img src="/order-summary-component-main/images/illustration-hero.svg" alt=""></div>
+  <div id="container2"> 
+    <div id="heading"> <h1>Order Summary</h1></div>
+    <div id="summary">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</div>
+    <div id="container4">
+      <div id="subContainer">
+        <div id="logo"><img src="/order-summary-component-main/images/icon-music.svg"></div>
+        <div id="subSubContainer">
+          <p id="annual"> Annual Plan</p>
+          <p id="price">$59.99/year</p>
+        </div>
+      </div>
+      <div><a href="#">Change</a></div>
+    </div>
   </div>
+
+  <div id="container3">
+    <button>Proceed to Payment</button>
+    <a href="#">Cancel Order</a> 
+  </div>
+</div>
+  
 </body>
 </html>
